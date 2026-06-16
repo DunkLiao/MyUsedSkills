@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deploy to Vercel"
+  short_description: "Deploy and verify Vercel sites"
+  default_prompt: "Use $deploy-to-vercel to deploy this project to Vercel, verify required data files, and connect GitHub auto-deploy."

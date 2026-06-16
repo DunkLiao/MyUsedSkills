@@ -1,0 +1,4 @@
+interface:
+  display_name: "Git Ignore Warning Fix"
+  short_description: "Fix Codex Git ignore warnings."
+  default_prompt: "Diagnose and fix Git warnings about an inaccessible global ignore file in the Codex execution environment."

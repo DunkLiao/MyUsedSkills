@@ -1,0 +1,4 @@
+interface:
+  display_name: "Restore Git Version"
+  short_description: "Safely restore a repository to the latest remote version."
+  default_prompt: "Restore this repository to the latest version from git, discarding local changes after confirming the destructive steps."

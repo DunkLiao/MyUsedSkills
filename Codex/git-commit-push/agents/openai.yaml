@@ -1,0 +1,4 @@
+interface:
+  display_name: "Git Commit Push"
+  short_description: "Commit staged or all changes and push safely"
+  default_prompt: "Use $git-commit-push to create a commit from my current repo changes and push it."
