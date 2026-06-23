@@ -1,0 +1,60 @@
+{
+  "description": "\u5c07 Oracle PL/SQL \u9810\u5b58\u7a0b\u5e8f\uff08stored procedure\uff0c\u5982 ETL\uff0f\u98a8\u96aa\u8a08\u7b97\u6279\u6b21\u7a0b\u5e8f\uff09\u7684\u539f\u59cb\u78bc\uff0c \u89e3\u6790\u6210\u5169\u4efd\u53ef\u4e0b\u8f09\u4ea4\u4ed8\u7269\uff1a(1) draw.io \u6d41\u7a0b\u5716\uff08.drawio \u6a94\uff09\uff0c\u5448\u73fe\u5404\u968e\u6bb5 DELETE\uff0fINSERT\uff0fUPDATE \u8655\u7406\u6d41\u7a0b\u3001\u4f86\u6e90\u8868\u8207\u76ee\u6a19\u8868\u8cc7\u6599\u6d41\uff1b(2) \u8cc7\u6599\u5b57\u5178 Excel\uff08.xlsx\uff09\uff0c \u6574\u7406\u6240\u6709\u4f86\u6e90\u8868\uff0f\u76ee\u6a19\u8868\u7684\u6b04\u4f4d\u3001\u7528\u9014\u3001\u52a0\u5de5\u908f\u8f2f\u3001\u5c0d\u7167\u78bc\u8207\u7be9\u9078\u689d\u4ef6\u3002\u6703\u81ea\u52d5\u9084\u539f Big5\uff0fCP950 \u4e82\u78bc\u4e2d\u6587\u8a3b\u89e3\uff0c\u6240\u6709\u6a94\u6848\u5957\u81fa\u9280\u9152\u7d05\uff0b\u91d1\u914d\u8272\uff0c\u4e26\u4ee5 LibreOffice \u6b63\u898f\u5316\u78ba\u4fdd Excel \u4e0d\u8df3\u4fee\u5fa9\u8996\u7a97\u3002 Use when the user uploads or references a .sql / .txt / .pks / .pkb / .prc Oracle \u9810\u5b58\u7a0b\u5e8f\uff08procedure\uff0fpackage\uff0fPL-SQL\uff09 and asks to \"\u756b\u6210\u6d41\u7a0b\u5716\", \"\u756b draw.io \u6d41\u7a0b\u5716\", \"\u505a\u9019\u652f\u7a0b\u5e8f\u7684\u6d41\u7a0b\u5716\", \"\u5efa\u7acb\u8cc7\u6599\u5b57\u5178\", \"\u6574\u7406\u4f86\u6e90\u8868\u76ee\u6a19\u8868\u6b04\u4f4d\", \"\u5e6b\u9019\u652f SQL\uff0f\u9810\u5b58\u7a0b\u5e8f\u505a\u6587\u4ef6\", \"\u628a\u9019\u500b stored procedure \u6587\u4ef6\u5316\", \"turn this stored procedure into a flowchart and data dictionary\", \"document this Oracle procedure\". \u6bcf\u4e00\u53e5\u5f15\u865f\u7247\u8a9e\u7686\u70ba\u89f8\u767c\u8a9e\u3002 Do NOT use for\uff1a\u57f7\u884c\u6216\u9664\u932f SQL\uff08\u672c skill \u53ea\u505a\u975c\u614b\u6587\u4ef6\u5316\uff0c\u4e0d\u9023\u8cc7\u6599\u5eab\u3001\u4e0d\u8dd1\u67e5\u8a62\uff09\u3001 \u4e00\u822c\u975e SQL \u7a0b\u5f0f\u78bc\u7684\u6d41\u7a0b\u5716\u3001\u628a\u65e2\u6709 Excel \u5f59\u7e3d\u8996\u89ba\u5316\u6210\u7db2\u9801\uff08\u7528 bot-sql-summary-report\uff09\u3001 \u7d14\u54c1\u724c\u4e3b\u984c\u6a94 .thmx\uff08\u7528 bot-brand-theme\uff09\u3001\u6216\u5bc4\u9001 email\uff0fTeams \u8a0a\u606f\u3002",
+  "dimension_notes": {
+    "instruction_specificity": [
+      "41 workflow line(s)",
+      "has Quick Start / example block",
+      "names tools / data sources",
+      "specifies output format"
+    ],
+    "robustness": [
+      "has Guardrails section",
+      "6 guardrail-style rule(s)",
+      "handles missing-data / failure"
+    ],
+    "scope_boundaries": [
+      "has 'When NOT to Use' section",
+      "description states exclusions",
+      "focused single-domain scope"
+    ],
+    "trigger_clarity": [
+      "9 explicit trigger phrase(s)",
+      "has exclusion clause"
+    ]
+  },
+  "dimensions": {
+    "instruction_specificity": 25,
+    "robustness": 20,
+    "scope_boundaries": 23,
+    "trigger_clarity": 25
+  },
+  "faithfulness": {
+    "detail": "instructs grounding / no-fabrication",
+    "status": "PASS"
+  },
+  "grade": "Excellent",
+  "improvements": [],
+  "mvb_pass": true,
+  "mvb_threshold": 80,
+  "path": "/mnt/user-config/.claude/skills/bot-sql-proc-doc/SKILL.md",
+  "risk": {
+    "factors": [
+      "takes actions (autonomy / blast radius)",
+      "destructive operations"
+    ],
+    "launch_floor": 80,
+    "requires_behavioral": true,
+    "requires_human_review": true,
+    "tier": "high"
+  },
+  "safety": [
+    {
+      "area": "destructive",
+      "detail": "Touches 'destructive' scope",
+      "status": "WARN"
+    }
+  ],
+  "skill_name": "bot-sql-proc-doc",
+  "timestamp": "2026-06-23 06:07 UTC",
+  "total": 93
+}
